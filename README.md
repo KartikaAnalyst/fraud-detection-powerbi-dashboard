@@ -1,66 +1,93 @@
-# fraud-detection-powerbi-dashboard
-Power BI fraud detection dashboard analyzing risky transactions, payment methods, devices, and locations.
+# Fraud Detection Analysis Dashboard | Power BI Project
 
-Fraud Detection Analysis Dashboard – Power BI Project
+## Project Overview
 
-This project focuses on analyzing financial transaction data to identify suspicious patterns and potentially fraudulent activities using Power BI.
+This project is an interactive **Power BI dashboard** developed to analyze financial transaction data and identify potentially fraudulent activities using risk indicators, transaction behavior, and user patterns.
 
-The dashboard was created to help monitor risky transactions based on multiple indicators such as transaction type, payment method, device used, location, account age, and user behavior.
+The dashboard provides meaningful insights into suspicious transactions based on payment methods, devices used, transaction locations, account history, and transaction frequency.
 
-Project Objective
+---
 
-To build an interactive Power BI dashboard that helps detect fraud-prone transactions and uncover patterns in risky financial activities.
+## Objective
 
-Tools Used
-Power BI
-Power Query (Data Cleaning & Transformation)
-DAX Measures
-Excel / CSV Dataset
+To build a dynamic fraud detection dashboard that helps businesses monitor risky transactions, detect anomalies, and support faster decision-making.
 
-Dataset Columns Used
-Transaction ID
-User ID
-Transaction Amount
-Transaction Type
-Time of Transaction
-Risk Flag (Is Risky?)
-Device Used
-Location
-Previous Fraudulent Transactions
-Account Age
-Number of Transactions in Last 24 Hours
-Payment Method
-Fraudulent Status
+---
 
-Dashboard Features
-KPI Cards
-Total Transactions: 382K
-Total Users: 51K
-Total Risky Users: 2,552
+## Tools & Technologies Used
 
-Visualizations Included
-Risky vs Safe Transactions Pie Chart
-Transactions by Payment Method
-Transactions by Location (Map View)
-Filters for Payment Method, Device Used, Transaction Type
+- Power BI  
+- Power Query  
+- DAX (Data Analysis Expressions)  
+- Excel / CSV Dataset  
+- Data Cleaning & Transformation  
 
-Key Insights
-Most transactions were marked as non-risky, but a small percentage required attention.
-Certain payment methods showed higher transaction volume.
-Risky transactions were observed across multiple cities.
-Unknown devices and unknown locations can indicate suspicious behavior.
-Users with previous fraudulent transactions may require monitoring.
+---
 
-Business Value
+## Dataset Information
 
-This dashboard can help banks, fintech companies, and payment platforms:
-Monitor fraud trends in real-time
-Detect suspicious transactions faster
-Reduce financial losses
-Improve security decision-making
+The dataset contains transaction-level data with the following fields:
 
-Files Included
-Fraud Detection Dashboard.pbix
-Dataset.xlsx / CSV
-Dashboard Screenshot.png
-README.md
+- Transaction_ID  
+- User_ID  
+- Transaction_Amount  
+- Transaction_Type  
+- Time_of_Transaction  
+- Is Risky?  
+- Device_Used  
+- Location  
+- Previous_Fraudulent_Transactions  
+- Account_Age  
+- Number_of_Transactions_Last_24H  
+- Payment_Method  
+- Fraudulent  
+
+---
+
+## Dashboard Features
+
+### KPI Cards
+
+- **Total Transactions:** 382K  
+- **Total Users:** 51K  
+- **Total Risky Users:** 2,552  
+
+### Visualizations Included
+
+- Pie Chart: Risky vs Non-Risky Transactions  
+- Bar Chart: Transactions by Payment Method  
+- Map: Transactions by Location  
+- Slicers:
+  - Payment Method  
+  - Device Used  
+  - Transaction Type  
+
+---
+
+## Key Insights
+
+- Majority of transactions are non-risky, with a smaller segment flagged for review.  
+- UPI, Debit Card, Credit Card, and Net Banking are the most frequently used payment methods.  
+- Risky transactions are spread across multiple cities.  
+- Transactions from unknown devices or unknown locations may indicate suspicious behavior.  
+- Users with previous fraudulent history require closer monitoring.  
+
+---
+
+## Business Impact
+
+This dashboard can help financial institutions and payment platforms:
+
+- Detect suspicious transactions faster  
+- Monitor fraud trends in real time  
+- Reduce operational and financial risk  
+- Improve customer account security  
+- Enable data-driven fraud prevention strategies  
+
+---
+
+## Dashboard Preview
+
+
+```markdown
+![Dashboard Preview](Dashboard Preview.png)
