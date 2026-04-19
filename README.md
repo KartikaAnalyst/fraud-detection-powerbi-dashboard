@@ -87,5 +87,6 @@ This dashboard can help financial institutions and payment platforms:
 ---
 
 ## Dashboard Preview
+![Dashboard Preview](Dashboard%20Preview.png)
 
-(Dashboard Preview.png)
+
