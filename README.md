@@ -90,3 +90,6 @@ This dashboard can help financial institutions and payment platforms:
 ![Dashboard Preview](Dashboard%20Preview.png)
 
 
+## Data Source
+
+This dataset was obtained from **Kaggle** and includes simulated transaction records used to analyze fraud patterns, risky transactions, and customer behavior.
