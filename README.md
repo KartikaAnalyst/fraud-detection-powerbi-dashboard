@@ -88,6 +88,4 @@ This dashboard can help financial institutions and payment platforms:
 
 ## Dashboard Preview
 
-
-```markdown
-![Dashboard Preview](Dashboard Preview.png)
+(Dashboard Preview.png)
